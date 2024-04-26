@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: testme-container
-          image: acrlndqa.azurecr.io/laukendrasingh/testme:50
+          image: acrlndqa.azurecr.io/laukendrasingh/testme:56
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
