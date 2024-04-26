@@ -1,4 +1,4 @@
-package com.impressico.lnd.alert;
+package com.impressico.lnd.testme;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -16,6 +16,6 @@ public class TestMeApplication {
 
     @GetMapping("/testme")
     public ResponseEntity<String> testMe() {
-        return new ResponseEntity<>("TestMe micro-service app is running!", HttpStatus.OK);
+        return new ResponseEntity<>("Testme app is running...", HttpStatus.OK);
     }
 }

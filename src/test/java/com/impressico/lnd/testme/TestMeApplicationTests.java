@@ -1,9 +1,9 @@
-package com.impressico.lnd.alert;
+package com.impressico.lnd.testme;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
-class AlertApplicationTests {
+class TestMeApplicationTests {
 	@Test
 	void contextLoads() {
 	}
